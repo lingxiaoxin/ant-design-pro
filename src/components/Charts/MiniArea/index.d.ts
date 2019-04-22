@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 
 // g2已经更新到3.0
 // 不带的写了
@@ -21,7 +21,7 @@ export interface IMiniAreaProps {
   xAxis?: IAxis;
   yAxis?: IAxis;
   data: Array<{
-    x: number;
+    x: number | string;
     y: number;
   }>;
 }
